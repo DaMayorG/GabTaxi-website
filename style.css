@@ -1,0 +1,275 @@
+/* RESET */
+*,
+*::after,
+*::before { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+input, button, textarea {
+font: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+main {
+  background-color: red;
+}
+
+a:any-link {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover, a:focus-visible {
+  border: 1px solid white;
+}
+
+a:active {
+  color: black;
+}
+
+.header {
+/*   position: sticky; */
+  top: 0;
+  z-index: 1;
+}
+
+.header_nav {
+ border-bottom: #2e2e2e;
+ font-weight: bold;
+ 
+}
+
+.header_ul {
+  padding: 20px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+ }
+
+.button {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 20px 30px;
+}
+
+.button:hover {
+  background-color: rgb(29, 29, 29);
+  border-radius: 10px;
+  padding: 20px 30px;
+}
+
+
+.container2 {
+  display: flex;
+  
+}
+
+.section {
+  flex: 1;
+  padding: 100px;
+  margin-left: 40px;
+  flex-direction: row;
+}
+
+
+.store {
+  display: flex;
+  gap: 10px; 
+
+}
+
+.hero_h1 {
+  font-size: 80px;
+  color: white;
+}
+
+.para {
+  color: white;
+padding-bottom: 20px;
+}
+
+
+
+/* DRIVE AND EARN */
+/* DRIVE AND EARN */
+
+.drive_h1  {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.driveandearn {
+  display: flex;  
+}
+
+.driver {
+  flex: 1;
+  padding: 100px;
+  margin-left: 40px;
+  flex-direction: row;
+}
+
+.drivertext {
+  flex: 1;
+  padding: 100px;
+  margin-right: 40px;
+}
+
+.drivertext2 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.drivertext2a {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* HOW GAB WORKS */
+/* HOW GAB WORKS */
+
+section {
+  background-color: aliceblue;
+
+}
+
+.works_h1  {
+  text-align: center;
+  padding-top: 40px;
+  margin-bottom: 20px;
+  }
+
+h3 {
+  text-align: center; 
+  margin-bottom: 50px;
+  color: #3f3f3f;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.howgabworks {
+  display: flex;
+}
+
+.left {
+  padding: 100px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  }
+
+.center {
+  padding: 50px;
+  margin-right: 40px;
+  background-image: url(images/blueCircle.c1ded2f0.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.right {
+  padding: 100px;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+
+
+/* DOWNLOAD GAB */
+/* DOWNLOAD GAB */
+
+.downloadapp {
+  display: flex;
+  margin: 60px;
+  background-image: url(images/streetview.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 435px;
+  border-radius: 20px;
+   
+}
+
+
+.downloadapptext {
+  padding: 100px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.signup {
+  display: flex;
+  gap: 70px; 
+}
+
+.downloadappimage {
+  padding: 50px;
+}
+
+
+
+/* FOOTER */
+/* FOOTER */
+
+
+.footer1 {
+  display: flex;
+  margin: 200px 100px;
+  justify-content: space-between;
+}
+
+.company {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.legal {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+
+footer {
+  position: sticky;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
